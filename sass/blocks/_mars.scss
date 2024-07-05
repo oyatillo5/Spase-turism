@@ -1,0 +1,147 @@
+.mars__header {
+  background-image: url("../img/mars-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 112px;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  max-width: 100%;
+  backdrop-filter: blur(15px);
+}
+.navbar-menu {
+  max-width: 1385px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 507px;
+}
+.nav__list {
+  max-width: 830px;
+  display: flex;
+  gap: 48px;
+  padding: 39px 165px 38px 123px;
+  background: #ffffff0a;
+}
+.navbar__hr {
+  width: 473px;
+  border: 1px solid #ffffff25;
+  margin-left: 64px;
+  position: absolute;
+  left: 45px;
+}
+.nav__item a {
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #ffffff;
+}
+.mars__hero {
+  color: #ffffff;
+  padding-top: 212px;
+}
+.mars__hero-cards {
+  display: flex;
+  align-items: start;
+  gap: 157px;
+}
+.mars__hero-left {
+  max-width: 445px;
+}
+.mars__hero-right {
+  max-width: 445px;
+}
+.mars__hero-right hr {
+  border: 1px solid red;
+  border: 1px solid #ffffff25;
+  margin-bottom: 28px;
+}
+.mars__hero-destinatio {
+  margin: 56px 0 97px 0;
+  font-family: "Barlow Condensed";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.6px;
+  letter-spacing: 4.724999904632568px;
+  color: #ffffff;
+}
+.mars__hero-navbar {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin-bottom: 37px;
+}
+.mars__title {
+  font-family: "Bellefair";
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 114.6px;
+  margin-bottom: 14px;
+}
+.mars__wikipedya-text {
+  font-family: "Barlow";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 54px;
+}
+.mars__right-box {
+  display: flex;
+  gap: 68px;
+}
+.mars__right-box-left-top {
+  font-family: "Barlow Condensed";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  letter-spacing: 2.362499952316284px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.mars__right-box-left-bottom {
+  font-family: "Bellefair";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.09px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1025px) {
+  .navbar__hr {
+    display: none;
+  }
+  .mars__header {
+    padding: 0 20px 0 20px;
+  }
+  .navbar-menu {
+    gap: 350px;
+  }
+
+  .navbar-menu strong {
+    display: none;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .mars__hero-cards {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .mars__hero-left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .mars__hero-left img {
+    margin: 0 auto;
+  }
+  .mars__hero-right {
+    max-width: 100%;
+    text-align: center;
+  }
+  .mars__hero-navbar {
+    width: 100%;
+    text-align: center;
+  }
+}
